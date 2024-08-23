@@ -1,0 +1,261 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    text-decoration: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth ;
+    list-style: none;
+}
+:root{
+    --bg-color:#fff;
+    --main-color:#1A2B3C;
+    --secondary-color:#5a7184;
+    --text-color:#221315;
+    --logo-color:orange;
+    --p-fontsize:1rem;
+}
+span {
+    color: rgb(250,185,7);
+   }
+   .header-span{
+    font-weight: 1200px;
+   }
+   .row h1{
+    font-weight: 900;
+    font-size: 25px;
+   }
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color:transparent;
+    position: fixed;
+    background-color: whitesmoke;
+    width:100%;
+    z-index: 1;
+}
+.logo{
+    margin-left: 300px;
+    font-size: 35px;
+    color: black;
+
+}
+
+.main-button-slider {
+    background-color: orange;
+    padding:5px 15px 5px 15px;
+    border-radius: 20px; 
+    color: white;
+}
+
+
+.nav{
+    display: flex;
+    justify-content: center;
+    margin-left: -100px;
+    width:100%;
+    gap:50px;
+    margin-top: 20px;
+    font-size: 20px;
+    background-color: transparent;
+}
+#bar:hover{
+    border-bottom: 3px solid black;
+}
+.link{
+    display: block;
+    color: black;
+}
+.dropdown-content{
+    
+}
+.section-1{
+    background-image: url(./images/banner-bg.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+.row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-left: -1500px;
+   
+}
+.section-2{
+    height: 100vh;
+
+}
+
+.features-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap:20px
+}
+.features-icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    gap:15px;
+    padding: 50px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    box-shadow: 10px 10px 100px red;
+}
+
+
+#promotion{
+    background-image: url(./images/left-image.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 80vh;
+    margin-left: 100px;
+    z-index: 1;
+    
+  
+}
+.section{
+    display: flex;
+    justify-content: flex-end;
+   
+}
+.container-feature-icon{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+ 
+    position: relative;
+    top: 80px;
+}
+.section .container-2 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 30px;
+    gap: 60px; 
+ 
+  
+    padding: 80px;
+}
+.container-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* position: relative;
+    top:100px; */
+    width:20%;
+    display: inline-block;
+}
+
+.text {
+    display: flex;
+   flex-direction: column;
+  
+}
+
+.text img {
+    flex-shrink: 0; 
+}
+
+.text p {
+    margin: 0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 800px;
+    position: relative;
+    top:180px;
+    height: 50vh;
+    
+}
+.container-testimonials{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;  
+    background-image: url(./images/right-bg-decor.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.item-service-item{
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+   
+}
+.center-heading{
+         margin-bottom: 90px;
+         font-weight: 10;
+}
+.author{
+    position: relative;
+    left: 70px;
+    bottom: 50px;
+}
+.testimonial-content{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid ;
+    font-weight: 100%;
+    padding: 100px;
+    background-color:  rgb(236,113,97);
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    gap:150px;
+}
+#contact-us{
+    height: 100vh;
+    background-image: url(./images/footer-bg.png);
+}
+.form-collector{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    width:100%;
+    padding: 20px;
+    gap:10px;
+}
+.btn{
+    background-color: orange;
+    padding:5px 15px 5px 15px;
+    border-radius: 20px; 
+    color: white;
+
+}
+.form-input{
+    padding: 50px;
+
+    
+    background-color:white;
+        
+}
+.contact-info{
+    padding: 100px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+} 
+.icons{
+    display: flex;
+    gap: 15px;
+}
+#icon{
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 15px;
+}
