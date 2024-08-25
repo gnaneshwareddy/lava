@@ -259,3 +259,92 @@ header{
     border-radius: 30px;
     padding: 15px;
 }
+
+@media screen and (max-width:480px) {
+    header .logo{
+        position: relative;
+        right: 150px;
+    }
+    .nav{
+        display: none;
+    }
+    .row h1{
+        font-size: 15px;
+        text-align: center;
+    }
+     .features-item{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+        height: 250vh;
+    } 
+    .features-icon{
+        width: 75%;
+    }
+    .container{
+        position: relative;
+        left: 120px;
+    }
+    .container p{
+        font-size: 12px;
+        position: relative;
+        left: 50px;
+    }
+    .container-2{
+        display: flex;
+        justify-content: center;
+        height: 540vh;
+    }
+    .container-feature-icon{
+        position: relative;
+        top:1100px;
+        display: flex;
+        gap: 300px;
+    }
+    .container-testimonials{
+        height: 700vh;
+        display: flex;
+        flex-direction: column;
+        background-image: none;
+    }
+    .container-testimonials #container-1{
+        display: none;
+    }
+    .container-testimonials .center-heading{
+        font-size: 15px;
+        text-align: center;
+    }
+    .container-testimonials #container-2{
+        margin-left: -100px;
+        width: 50%;
+    }
+    .container-testimonials .testimonial-content{
+        width: 70%;
+        margin-left: -50px;
+    }
+    .author img{
+        margin-left: 100px;
+    }
+    #promotion{
+        background-image: none;
+    }
+    .form-input{
+        display: none;
+    }
+    .contact-info{
+        text-align: center;
+         height: 30vh;
+        color: black;
+       position: relative;
+     justify-content: center;   
+       bottom: 1500px;
+       background-image: url(./images/footer-bg.png);
+    }
+  
+    #contact-us{
+        background-image: none;
+    }
+    
+}
