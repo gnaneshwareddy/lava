@@ -220,6 +220,8 @@ header{
 #contact-us{
     height: 100vh;
     background-image: url(./images/footer-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .form-collector{
     display: flex;
@@ -261,6 +263,9 @@ header{
 }
 
 @media screen and (max-width:480px) {
+    *{
+        box-sizing: border-box;
+    }
     header .logo{
         position: relative;
         right: 150px;
@@ -295,16 +300,19 @@ header{
     .container-2{
         display: flex;
         justify-content: center;
-        height: 540vh;
+        height: 580vh;
     }
     .container-feature-icon{
         position: relative;
         top:1100px;
         display: flex;
-        gap: 300px;
+        justify-content: center;
+        align-items: center;
+        gap: 400px;
+        height: 200vh;
     }
     .container-testimonials{
-        height: 700vh;
+        height: 750vh;
         display: flex;
         flex-direction: column;
         background-image: none;
@@ -330,12 +338,20 @@ header{
     #promotion{
         background-image: none;
     }
+    .form{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        bottom: 300px;
+    }
     .form-input{
-        display: none;
+        position: relative;
+        bottom: 600px;
+        background-color: black;
     }
     .contact-info{
         text-align: center;
-         height: 30vh;
+         height:30vh;
         color: black;
        position: relative;
      justify-content: center;   
